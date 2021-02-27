@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/users", (req, res) => {
-  res.send("Running to Route users");
+  res.send("Running to Route users with all users");
 });
 
 app.listen(port, () => {
